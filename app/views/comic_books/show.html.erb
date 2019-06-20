@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @comic_book.name %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @comic_book.author %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @comic_book.description %>
+</p>
+
+<%= link_to 'Edit', edit_comic_book_path(@comic_book) %> |
+<%= link_to 'Back', comic_books_path %>
